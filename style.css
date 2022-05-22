@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 97px;
+    display: flex;
+
+}
+.navbar{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+.navbar img{
+    /* margin: 12px;
+    padding: 10px; */
+    position: absolute;
+    left: 92px;
+}
+.navbar ul{
+    display: flex;
+    position: absolute;
+    right: -17px;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 23px;
+}
+.navbar li a {
+    display: block;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    /* padding: 12px;
+    margin: 11px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.hero{
+    background-color: rgb(61, 48, 48);
+    padding: 343px;
+    background: url(SpacexBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+.container{
+    font-size: xx-large;
+    position: relative;
+    right: 245px;
+    top: -236px;
+    color: aliceblue;
+}
+
+.YourRocket{
+    font-size: 25px;
+    position: relative;
+    right: 238px;
+    top: -214px;
+    color: #1c1a1a;
+}
+.button {
+    background-color: #fbfdfb;
+    border: none;
+    color: rgb(7, 1, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: -125px;
+    right: 239px;
+  }
+
